@@ -8,7 +8,7 @@ from app.utils.security import hash_password, create_access_token
 from app.models import User, Course, Enrollment
 
 # Use in-memory SQLite for testing
-SQLALCHEMY_DATABASE_URL = "sqlite:///:memory:"
+SQLALCHEMY_DATABASE_URL = "sqlite:///./test.db"
 
 engine = create_engine(
     SQLALCHEMY_DATABASE_URL,
