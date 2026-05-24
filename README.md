@@ -162,6 +162,16 @@ The API will be available at `http://localhost:8000`
 - Swagger UI: `http://localhost:8000/docs`
 - ReDoc: `http://localhost:8000/redoc`
 
+- ## Live Demo
+
+The API is deployed and accessible at:
+
+- **Base URL**: https://course-enrollment-api-n7dh.onrender.com/
+- **Interactive API Docs (Swagger UI)**: https://course-enrollment-api-n7dh.onrender.com/docs
+- **Courses Endpoint**: https://course-enrollment-api-n7dh.onrender.com/api/courses/
+
+> **Note**: The free Render tier may spin down after periods of inactivity. The first request might take 30–50 seconds to wake up the service.
+
 ### Production mode
 
 ```bash
